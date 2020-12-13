@@ -2,8 +2,8 @@ package tinysrc
 
 import (
 	"encoding/json"
+	"github.com/dmitrypro77/tinysrc-api-sdk/models"
 	"net/http"
-	"tinysrc-api-sdk/models"
 )
 
 // Get Current User Information

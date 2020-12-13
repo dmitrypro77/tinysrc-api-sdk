@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/dmitrypro77/tinysrc-api-sdk/models"
 	"io"
 	"net/http"
 	"net/url"
-	"tinysrc-api-sdk/models"
 )
 
 // Client to send request to TinySRC API

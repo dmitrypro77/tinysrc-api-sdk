@@ -3,6 +3,7 @@ package tinysrc
 import (
 	"context"
 	"fmt"
+	"github.com/dmitrypro77/tinysrc-api-sdk/models"
 	"io"
 	"net/http"
 	"net/http/httptest"
@@ -10,7 +11,6 @@ import (
 	"reflect"
 	"testing"
 	"time"
-	"tinysrc-api-sdk/models"
 )
 
 func TestClient_do(t *testing.T) {

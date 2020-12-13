@@ -2,9 +2,9 @@ package tinysrc
 
 import (
 	"encoding/json"
+	"github.com/dmitrypro77/tinysrc-api-sdk/models"
 	"net/http"
 	"net/url"
-	"tinysrc-api-sdk/models"
 )
 
 // Get List My Urls

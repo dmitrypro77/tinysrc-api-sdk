@@ -3,9 +3,9 @@ package tinysrc
 import (
 	"bytes"
 	"encoding/json"
+	"github.com/dmitrypro77/tinysrc-api-sdk/models"
 	"net/http"
 	"net/url"
-	"tinysrc-api-sdk/models"
 )
 
 // Create a New Link

@@ -3,13 +3,13 @@ package tinysrc
 import (
 	"context"
 	"encoding/json"
+	"github.com/dmitrypro77/tinysrc-api-sdk/models"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"reflect"
 	"testing"
-	"tinysrc-api-sdk/models"
 )
 
 func TestClient_CreateShortLink(t *testing.T) {
